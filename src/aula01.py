@@ -1,13 +1,24 @@
 
 from Generator import Generator
+from FCM import FCM
 
 def main():
-    text = "gosto mt da luisa, mas ela n curte de mim"
+
+    fcm = FCM(2, 1)
+    fcm.update("ola eu sou o tiago, ola")
+    print(fcm.finitecontext)
+
+    '''
+    text = "hihi"
     text_generated = ""
-    generator = Generator()
+    text_to_learn = "ola eu sou o justino"
+    fcm = FCM(text_to_learn)
+    generator = Generator(fcm)
     for c in text:
-        text_generated.join(generator.get_next(c))
+        text_generated.join(generator.generate(c))
     print(text.join(text_generated))
+    '''
+    
 
 if __name__ == '__main__':
     main()

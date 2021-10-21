@@ -1,14 +1,12 @@
-from MarkovChain import MarkovChain
+from FCM import FCM
 
 class Generator:
 
-    markov_chain = None
-
-    def __init__(self, k=1, ):
-        markov_chain = MarkovChain()
+    def __init__(self, fcm, k=1):
+        self.fcm = fcm
 
     
-    def get_next(self, character):
+    def generate(self, character):
         while True:
             # ver ultimo valor
             ultimo = "A"
