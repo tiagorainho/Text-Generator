@@ -3,17 +3,6 @@ import math
 
 # Finite Context Model
 class FCM:
-
-    '''
-        ATGTGATT   TTAATAGCTTCTTAGGAGAATGACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-
-        str = "aabaac"
-        k = 1
-        {
-            "a": [("a", 2), ("b", 1), ("c", 1)],
-            "b": [("a", 1)]
-        }
-    '''
     
     def __init__(self, k, alpha): # assumimos que o context do modelo é o k
         self.finitecontext = dict()
@@ -31,11 +20,11 @@ class FCM:
         for c in text:
             self.characters.add(c)
 
-            print("----------------------------------")
-            print("total entropy: " + str(self.calculate_entropy()))
+            #print("----------------------------------")
+            #print("total entropy: " + str(self.calculate_entropy()))
             if len(last_characters) == self.k:
 
-                print("P(" +c + "|" + last_characters + ": " + str(self.information_amount(c, last_characters)))
+                #print("P(" +c + "|" + last_characters + ": " + str(self.information_amount(c, last_characters)))
                 # adicionar ao finite context
                 occurences = self.finitecontext.get(last_characters)
                 
