@@ -1,4 +1,6 @@
 
+import math
+
 # Finite Context Model
 class FCM:
 
@@ -10,7 +12,6 @@ class FCM:
             "b": [("a", 1)]
         }
     '''
-    
     
     def __init__(self, k, alpha): # assumimos que o context do modelo é o k
         self.finitecontext = dict()
@@ -42,5 +43,25 @@ class FCM:
                 last_characters = last_characters[1:]
             last_characters = last_characters + c
 
+    def calculate_cardinality(self, text):
+        return len(set(text))
+
+
+
     def calculate_entropy(self):
-        pass
+        cardinality = self.calculate_cardinality()
+        H = 0
+        for context, tuple_list in self.finitecontext.items():
+            Hc = 0
+            Pec = 0
+            Psc = 0
+            for t in tuple_list:
+                Psc += t[1]
+            for t in tuple_list:
+                Pec = (t[1] + self.alpha) / (Psc + self.alpha * cardinality)
+                information_amount = - math.log2(Pec)
+                Hc = information_amount * Pec
+
+            H += Hc*Pec
+        return H
+

@@ -1,11 +1,14 @@
-
+import sys
 from Generator import Generator
 from FCM import FCM
 
 def main():
-
-    fcm = FCM(2, 1)
-    fcm.update("ola eu sou o tiago, ola")
+    if len(sys.argv) != 4:
+        print("Usage: python3 aula01.py <file_path> <k> <alpha>") 
+    fcm = FCM(int(sys.argv[2]), int(sys.argv[3]))
+    f = open(sys.argv[1],'r')
+    file_str = f.read().replace('\n', '')
+    fcm.update(file_str)
     print(fcm.finitecontext)
 
     '''
