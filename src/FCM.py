@@ -26,7 +26,7 @@ class FCM:
         last_characters = ''
 
         if self.cardinality == None:
-            self.load_alphabet(self.characters | set(text))
+            self.load_alphabet(self.characters.union(set(text)))
 
         for c in text:
             self.characters.add(c)
