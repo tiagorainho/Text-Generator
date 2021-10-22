@@ -8,7 +8,10 @@ def main():
     fcm = FCM(int(sys.argv[2]), int(sys.argv[3]))
     f = open(sys.argv[1],'r')
     file_str = f.read().replace('\n', '')
+
+    fcm.load_alphabet("ACGT")
     fcm.update(file_str)
+    #fcm.update("boas sou o tiagocas")
     print(fcm.finitecontext)
 
     '''

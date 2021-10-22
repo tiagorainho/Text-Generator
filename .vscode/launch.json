@@ -10,7 +10,7 @@
             "request": "launch",
             "program": "src/aula01.py",
             "console": "integratedTerminal",
-            "args" : ["example/example.txt", "3", "1"]    
+            "args" : ["example/example2.txt", "1", "1"]    
         }
     ]
 }
