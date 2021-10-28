@@ -5,6 +5,7 @@ class Generator:
 
     def __init__(self, fcm: FCM):
         self.fcm = fcm
+
     
     def generate(self, text:str = None) -> str:
         last_characters = text[-self.fcm.k:]
@@ -19,10 +20,16 @@ class Generator:
     def _get_next(self, last_characters:str):
         tuple_list = self.fcm.finitecontext.get(last_characters)
         if tuple_list != None:
-            random_number = random.randint(1, sum(t[1] for t in tuple_list))
             counter = 0
-            for t in tuple_list:
-                if random_number > counter and random_number <= counter+t[1]:
-                    return t[0]
-                counter += t[1]
+            probabilities = [(event, self.fcm.probability_e_c(event, last_characters)) for (event, count) in tuple_list]
+            random_float = random.random()%sum([p[1] for p in probabilities])
+            for event, probability in probabilities:
+                if random_float > counter and random_float <= counter+probability:
+                    return event
+                counter += probability
         return random.sample(self.fcm.characters, 1)[0]
+
+        # (1 + 0.5 )/ (9 + 0.5*91) = 0.0275229358
+
+
+

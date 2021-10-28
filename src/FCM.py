@@ -3,19 +3,24 @@ import math
 
 # Finite Context Model
 class FCM:
-    
+
+
     def __init__(self, k, alpha): # assumimos que o context do modelo é o k
         self.finitecontext = dict()
         self.k = k
         self.alpha = alpha
         self.characters = set()
-        self.cardinality = None
+    
+    
+    @property
+    def cardinality(self):
+        return len(self.characters)
+
 
     def update(self, text: str):
         last_characters = ''
 
-        if self.cardinality == None:
-            self.load_alphabet(self.characters.union(set(text)))
+        self.load_alphabet(text)
 
         for c in text:
             self.characters.add(c)
@@ -43,8 +48,20 @@ class FCM:
            
             last_characters = last_characters + c
 
+
     def load_alphabet(self, text):
-        self.cardinality = len(set(text))
+        self.characters = self.characters.union(set(text))
+
+
+    def probability_e_c(self, event: str, context: str):
+        Psc = Nec = 0
+        tuple_list = self.finitecontext.get(context)
+        for t in tuple_list:
+            Psc += t[1]
+            if t[0] == event: Nec = t[1]
+
+        return (Nec + self.alpha) / (Psc + self.alpha * self.cardinality)
+
 
     def information_amount(self, event, context):
         Psc = 0
@@ -59,6 +76,7 @@ class FCM:
         if Pec == 0:
             Pec = (0 + self.alpha) / (Psc + self.alpha * self.cardinality)
         return -1*math.log2(Pec)
+
 
     def calculate_entropy(self):
         H = 0
