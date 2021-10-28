@@ -19,12 +19,7 @@ class FCM:
 
         for c in text:
             self.characters.add(c)
-
-            #print("----------------------------------")
-            #print("total entropy: " + str(self.calculate_entropy()))
             if len(last_characters) == self.k:
-
-                #print("P(" +c + "|" + last_characters + ": " + str(self.information_amount(c, last_characters)))
                 # adicionar ao finite context
                 occurences = self.finitecontext.get(last_characters)
                 

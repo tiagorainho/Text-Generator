@@ -5,7 +5,8 @@ import time, string
 
 def main(k, alpha):
 
-    files = ['example/example3.txt', 'example/example4.txt']
+    files = ['example/example3.txt', 'example/example4.txt', 'example/romeo_juliet.txt']
+    #files = ['example/example3.txt']
 
     fcm = FCM(k, alpha)
     #fcm.load_alphabet("ACGT")
@@ -13,10 +14,10 @@ def main(k, alpha):
     for file in files:
         add_file(file ,fcm)
 
-    fcm.update("From Romeo and Juliet to King Lear to Macbeth to all of his stunning sonnets and other works, William Shakespeare’s top spot in the literary world has been solidified for centuries. Although his work is well-covered in many schools, famous Shakespeare quotes do not only belong in English courses for study. We can all appreciate his tongue-in-cheek observations about society and individuals’ behavior, as well as gain inspiration and wisdom from his quick-witted quips and smart sense of humor. Not only that, he can help us find beauty through language—including an appreciation for vulnerable declarations of love.")
+    fcm.update("")
     
     generator = Generator(fcm)
-    text = "famous Shakespeare quotes"
+    text = "Principezinho "
 
     returned_text = generator.generate(text)
 
@@ -30,7 +31,7 @@ def main(k, alpha):
         time.sleep(0.1)
 
 def add_file(file, fcm):
-    with open('../' + file) as f:
+    with open(file) as f:
         file_str = f.read().replace('\n', '')#.lower()
         fcm.update(file_str)
 
