@@ -1,5 +1,6 @@
 
 import math
+from argparse import ArgumentParser
 
 # Finite Context Model
 class FCM:
@@ -63,7 +64,7 @@ class FCM:
         return (Nec + self.alpha) / (Psc + self.alpha * self.cardinality)
 
 
-    def information_amount(self, event, context):
+    def information_amount(self, event: str, context: str):
         Psc = 0
         Pec = 0
         tuple_list = self.finitecontext.get(context)
@@ -88,10 +89,34 @@ class FCM:
                 Pec = (t[1] + self.alpha) / (Psc + self.alpha * self.cardinality)
                 information_amount = - math.log2(Pec)
                 Hc += information_amount * Pec
-            if self.cardinality > len(tuple_list):
-                Pec = (0 + self.alpha) / (Psc + self.alpha * self.cardinality)
+            if self.alpha != 0 and self.cardinality > len(tuple_list):
+                Pec = (self.alpha) / (Psc + self.alpha * self.cardinality) # in case there are 0 occurences, calculate Pec for 0
                 information_amount = - math.log2(Pec)
                 Hc += (information_amount * Pec) * (self.cardinality - len(tuple_list)) #verify
             H += Hc * 1/len(self.finitecontext.keys()) #verify
         return H
+
+
+def parse_args():
+    parser = ArgumentParser()
+    parser.add_argument("--files", metavar="files", nargs="+", type=str, required=True,
+                        help="File to read")
+    parser.add_argument("--alpha", metavar="alpha", type=float, required=False, default=1,
+                        help="Variable responsible for smoothing")
+    parser.add_argument("--k", metavar="k", type=int, required=False, default=5,
+                        help="Size of shifting window")
+    return parser.parse_args()
+
+
+if __name__ == '__main__':
+    args = parse_args()
+
+    fcm = FCM(k=args.k, alpha=args.alpha)
+    for file in args.files:
+        with open(file) as f:
+            print(f"Reading file {f.name}")
+            fcm.update(f.read().replace('\n', ''))
+
+    print(f"Calculating entropy")
+    print(f"Entropy: { fcm.calculate_entropy() }")
 

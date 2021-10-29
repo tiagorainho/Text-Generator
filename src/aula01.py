@@ -1,14 +1,14 @@
 import sys
+from typing import List
 from Generator import Generator
 from FCM import FCM
 import time, json
 
-def add_normal_files(fcm: FCM):
-    files = ['example/example3.txt', 'example/example4.txt', 'example/romeo_juliet.txt']
-    
+def add_files(fcm: FCM, files: List[str]):    
     #fcm.load_alphabet("ACGT")
     for file in files:
         add_file(file, fcm)
+
 
 def add_conversational_files(fcm: FCM):
     conversations = []
@@ -25,8 +25,8 @@ def add_conversational_files(fcm: FCM):
 def main(k, alpha):
 
     fcm = FCM(k, alpha)
-    #add_normal_files(fcm)
-    add_conversational_files(fcm)
+    add_files(fcm, ['example/biblia.txt'])
+    #add_conversational_files(fcm)
     
     generator = Generator(fcm)
     
