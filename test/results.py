@@ -25,23 +25,25 @@ def results_fcm(k:int, alpha: float, files: List[str]):
     fcm = FCM(k=k, alpha=alpha)
     for file in files:
         with open(file) as f:
-            print(f'Reading file {f.name}')
+            # print(f'Reading file {f.name}')
             fcm.update(f.read().replace('\n', ''))
 
     return fcm.calculate_entropy()
 
 if __name__ == '__main__':
 
-    files = ["../example/biblia.txt"]
-    files_str = []
-    for file in files:
-        with open(file) as f:
-            print(f"Reading file {f.name}")
-            files_str.append(f.read().replace('\n', ''))
+    # files = ["../example/biblia.txt"]
+    # files_str = []
+    # for file in files:
+    #     with open(file) as f:
+    #         print(f"Reading file {f.name}")
+    #         files_str.append(f.read().replace('\n', ''))
 
-    alpha_range = [x/10 for x in range(0, 10)]
-    alpha = 0.1
+    alpha_range = [x/10 for x in range(0, 11)]
+    alpha = 1
+    # for alpha in alpha_range:
     for k in range(1,21):
-        # for alpha in alpha_range:
-        print(f"k: {k}  alpha: {alpha}")
-        print(f'\'{results_generator(k, alpha, files_str, "and god said, let the", 10, 150)}\'')
+        entropy = results_fcm(k, alpha, ["../example/biblia.txt"])
+        print(f"k: {k}  alpha: {alpha}  entropy: {entropy}")
+        # print(f'\'{results_generator(k, alpha, files_str, "and god said, let the", 10, 500)}\'')
+
