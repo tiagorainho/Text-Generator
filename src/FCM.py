@@ -6,7 +6,7 @@ from argparse import ArgumentParser
 class FCM:
 
 
-    def __init__(self, k, alpha): # assumimos que o context do modelo é o k
+    def __init__(self, k:int, alpha:float): # assumimos que o context do modelo é o k
         self.finitecontext = dict()
         self.k = k
         self.alpha = alpha
@@ -50,7 +50,7 @@ class FCM:
             last_characters = last_characters + c
 
 
-    def load_alphabet(self, text):
+    def load_alphabet(self, text:str):
         self.characters = self.characters.union(set(text))
 
 
