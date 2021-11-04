@@ -122,7 +122,7 @@ if __name__ == '__main__':
     for file in args.files:
         with open(file) as f:
             print(f"Reading file {f.name}")
-            fcm.update(f.read().replace('\n', ' '))
+            fcm.update(f.read())
 
     print(f"Calculating entropy")
     print(f"Entropy: { fcm.calculate_entropy() }")
