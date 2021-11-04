@@ -1,16 +1,17 @@
 
 import math
 from argparse import ArgumentParser
+from typing import Dict, List, Set
 
 # Finite Context Model
 class FCM:
 
 
     def __init__(self, k:int, alpha:float): # assumimos que o context do modelo é o k
-        self.finitecontext = dict()
-        self.k = k
-        self.alpha = alpha
-        self.characters = set()
+        self.finitecontext: Dict[str, List[str, int]] = dict()
+        self.k: int = k
+        self.alpha: float = alpha
+        self.characters: Set[chr] = set()
     
     
     @property
@@ -81,9 +82,9 @@ class FCM:
 
     def calculate_entropy(self):
         H = 0
-        sum_Psc = 0
+        sum_Psc = 0 #sum([t[1] for tuple_list in self.finitecontext.values() for t in tuple_list])
         # calculate sum of all Psc
-        for context, tuple_list in self.finitecontext.items():
+        for tuple_list in self.finitecontext.values():
             for t in tuple_list:
                 sum_Psc += t[1]
         
@@ -121,7 +122,7 @@ if __name__ == '__main__':
     for file in args.files:
         with open(file) as f:
             print(f"Reading file {f.name}")
-            fcm.update(f.read().replace('\n', ''))
+            fcm.update(f.read().replace('\n', ' '))
 
     print(f"Calculating entropy")
     print(f"Entropy: { fcm.calculate_entropy() }")
