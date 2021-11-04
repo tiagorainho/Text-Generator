@@ -40,6 +40,7 @@ def KillHandler(signum, frame):
 
 signal.signal(signal.SIGTSTP, KillHandler)
 
+
 def parse_args():
     parser = ArgumentParser()
     parser.add_argument("--files", metavar="files", nargs="+", type=str, required=True,

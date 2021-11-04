@@ -81,6 +81,12 @@ class FCM:
 
     def calculate_entropy(self):
         H = 0
+        sum_Psc = 0
+        # calculate sum of all Psc
+        for context, tuple_list in self.finitecontext.items():
+            for t in tuple_list:
+                sum_Psc += t[1]
+        
         for context, tuple_list in self.finitecontext.items():
             Hc = Psc = Pec = 0
             for t in tuple_list:
@@ -93,7 +99,7 @@ class FCM:
                 Pec = (self.alpha) / (Psc + self.alpha * self.cardinality) # in case there are 0 occurences, calculate Pec for 0
                 information_amount = - math.log2(Pec)
                 Hc += (information_amount * Pec) * (self.cardinality - len(tuple_list)) #verify
-            H += Hc * 1/len(self.finitecontext.keys()) #verify
+            H += Hc * Psc/sum_Psc #len(self.finitecontext.keys()) #verify
         return H
 
 
