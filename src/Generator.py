@@ -31,8 +31,8 @@ class Generator:
                 if random_float > counter and random_float <= counter+probability:
                     return event
                 counter += probability
-        return random.sample(self.fcm.characters, 1)[0]
-
+        #return random.sample(self.fcm.characters, 1)[0]
+        return None
 
 def KillHandler(signum, frame):
     global passNext
