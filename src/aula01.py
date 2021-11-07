@@ -49,7 +49,7 @@ def main(k, alpha):
 
 def add_file(file, fcm):
     with open(file) as f:
-        file_str = f.read().replace('\n', '')
+        file_str = f.read()
         fcm.update(file_str)
 
 

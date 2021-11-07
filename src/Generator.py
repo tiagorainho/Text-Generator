@@ -16,7 +16,7 @@ class Generator:
             while True:
                 next_character = self._get_next(last_characters)
                 if next_character == None: break
-                last_characters = last_characters[1:] + next_character
+                last_characters = ''.join([last_characters[1:], next_character])
                 yield next_character
         return None
 
@@ -25,7 +25,7 @@ class Generator:
         tuple_list = self.fcm.finitecontext.get(last_characters)
         if tuple_list != None:
             counter = 0
-            probabilities = [(event, self.fcm.probability_e_c(event, last_characters)) for (event, count) in tuple_list]
+            probabilities = [(event, self.fcm.probability_e_c(event, last_characters)) for event, count in tuple_list]
             random_float = random.random()%sum([p[1] for p in probabilities])
             for event, probability in probabilities:
                 if random_float > counter and random_float <= counter+probability:
@@ -61,7 +61,7 @@ if __name__ == '__main__':
     for file in args.files:
         with open(file) as f:
             print(f"Reading file {f.name}")
-            fcm.update(f.read().replace('\n', ''))
+            fcm.update(f.read())
     
     random.seed(args.seed)
     generator = Generator(fcm)

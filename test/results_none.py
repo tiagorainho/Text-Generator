@@ -60,7 +60,7 @@ if __name__ == '__main__':
     for file in files:
         with open(file) as f:
             print(f"Reading file {f.name}")
-            files_str.append(f.read().replace('\n', ''))
+            files_str.append(f.read())
     alpha_range = [x/10 for x in range(0, 11)]
     
     for k in range(1,13):

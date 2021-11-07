@@ -13,7 +13,7 @@ def test(k:int, alpha:float, files:List[str]):
     for file in files:
         with open(file) as f:
             print(f'Reading file {f.name}')
-            fcm.update(f.read().replace('\n', ''))
+            fcm.update()
 
     assert fcm.calculate_entropy() == 4.6772849758349615, RED + 'fcm.calculate_entropy() is not well computed' + ENDL
     print(GREEN + 'fcm.calculate_entropy()' + ENDL)

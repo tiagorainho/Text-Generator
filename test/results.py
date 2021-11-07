@@ -3,6 +3,7 @@ from typing import List
 sys.path.append('../src')
 from FCM import FCM
 from Generator import Generator
+import time
 
 
 def results_generator(k:int, alpha:float, files:List[str], start_text:str, seed:int, generation_length:int):
@@ -22,16 +23,34 @@ def results_generator(k:int, alpha:float, files:List[str], start_text:str, seed:
 
 
 def results_fcm(k:int, alpha: float, files: List[str]):
-    fcm = FCM(k=k, alpha=alpha)
+    files_str = []
     for file in files:
         with open(file) as f:
-            # print(f'Reading file {f.name}')
-            fcm.update(f.read().replace('\n', ''))
+            files_str.append(f.read())
+            
+    start = time.time()
+    fcm = FCM(k=k, alpha=alpha)
+    for file_str in files_str:
+        fcm.update(file_str)
+    print(f"fcm_creation_elapsed_time: {time.time()-start}")
+    start = time.time()
+    entropy = fcm.calculate_entropy()
+    print(f"fcm_calculate_entropy_time: {time.time()-start}")
+    return entropy
 
-    return fcm.calculate_entropy()
 
 if __name__ == '__main__':
 
+    text = "ola tudo bem pessoal"
+    k = 3
+    
+    
+    #sliced = (text[i:i+16] for i in range(0,len(text), 1))
+    #sliced = ((text[i:i+k], text[i+k:i+k+1]) for i in range(0, len(text)-k, 1))
+    # sliced = [(text[x:x+k], text[x+k:x+k+1]) for x in range(0, len(text)-k, 1)]
+    # for s, b in sliced:
+    #     print(f"{s} -> {b}")
+    # exit(0)
     # files = ["../example/biblia.txt"]
     # files_str = []
     # for file in files:
@@ -39,11 +58,9 @@ if __name__ == '__main__':
     #         print(f"Reading file {f.name}")
     #         files_str.append(f.read().replace('\n', ''))
 
-    alpha_range = [x/10 for x in range(0, 11)]
-    alpha = 1
-    # for alpha in alpha_range:
-    for k in range(1,21):
-        entropy = results_fcm(k, alpha, ["../example/biblia.txt"])
-        print(f"k: {k}  alpha: {alpha}  entropy: {entropy}")
-        # print(f'\'{results_generator(k, alpha, files_str, "and god said, let the", 10, 500)}\'')
+    for alpha in [x/10 for x in range(0, 11)]:
+        for k in range(1,21):
+            entropy = results_fcm(k, alpha, ["../example/biblia.txt"])
+            print(f"k: {k}  alpha: {alpha}  entropy: {entropy}")
+            # print(f'\'{results_generator(k, alpha, files_str, "and god said, let the", 10, 500)}\'')
 
