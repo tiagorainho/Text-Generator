@@ -63,7 +63,6 @@ class FCM:
             Psc += t[1]
             if t[0] == event:
                 Nec = t[1]
-
         return (Nec + self.alpha) / (Psc + self.alpha * self.cardinality)
 
 
@@ -71,7 +70,6 @@ class FCM:
         H = 0
         # calculate sum of all Psc
         sum_Psc = sum([t[1] for tuple_list in self.finitecontext.values() for t in tuple_list])
-
         for context, tuple_list in self.finitecontext.items():
             Hc = Pec = 0
             Psc = sum(t[1] for t in tuple_list)

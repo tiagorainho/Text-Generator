@@ -10,10 +10,8 @@ def results_generator(k:int, alpha:float, files:List[str], start_text:str, seed:
     fcm = FCM(k=k, alpha=alpha)
     for file_str in files:
         fcm.update(file_str)
-    
     random.seed(seed)
     generator = Generator(fcm)
-
     text_generator = generator.generate(start_text)
     result = ''
     for _ in range(generation_length):
@@ -25,7 +23,7 @@ def results_fcm(k:int, alpha: float, files: List[str]):
     files_str = []
     for file in files:
         with open(file) as f:
-            files_str.append(f.read()) # elimitar o replace
+            files_str.append(f.read())
             
     start = time.time()
     fcm = FCM(k=k, alpha=alpha)
@@ -40,7 +38,6 @@ def results_fcm(k:int, alpha: float, files: List[str]):
 
 if __name__ == '__main__':
     test_entropy, test_generator = True, False
-
     files = ["../example/biblia.txt"]
     if test_generator:
         files_str = []
