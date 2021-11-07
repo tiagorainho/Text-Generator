@@ -12,11 +12,7 @@ def results_generator(k:int, alpha:float, files:List[str], start_text:str, seed:
         fcm.update(file_str)
     random.seed(seed)
     generator = Generator(fcm)
-    text_generator = generator.generate(start_text)
-    result = ''
-    for _ in range(generation_length):
-        result += next(text_generator)
-    return result
+    return generator.generate_string(start_text, generation_length)
 
 
 def calculate_entropy_fast(k_range:List[int], alpha_range:List[int], files_str: List[str]):
@@ -48,6 +44,7 @@ def results_fcm(k:int, alpha: float, files_str: List[str]):
 if __name__ == '__main__':
     test_entropy, test_generator = True, False
     fast_run = True
+    seed = 100
     chars_to_generate = 500
     alpha_range = [x/10 for x in range(0, 11)]
     k_range = [k for k in range(1,21)]
@@ -75,4 +72,4 @@ if __name__ == '__main__':
                     entropy = results_fcm(k, alpha, files_str)
                     print(f"k: {k}  alpha: {alpha}  entropy: {entropy}")
     if test_generator:
-        print(f'\'{results_generator(k, alpha, files_str, "and god said, let the", 10, 500)}\'')
+        print(f'\'{results_generator(k, alpha, files_str, "and god said, let the", seed, chars_to_generate)}\'')
