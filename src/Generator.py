@@ -44,6 +44,7 @@ class Generator:
         return ''.join(random.choice(''.join(char for char in self.fcm.characters)))
         #return None
 
+
 def KillHandler(signum, frame):
     global passNext
     passNext = True
@@ -61,6 +62,8 @@ def parse_args():
                         help="Size of shifting window")
     parser.add_argument("--seed", metavar="seed", type=int, required=False, default=time.time_ns(),
                         help="Seed of the pseudo-random value generator")
+    parser.add_argument("--context", metavar="context", nargs="+", type=str, required=False, default=None,
+                        help="Context to generate the next characters")
     parser.add_argument("--output", metavar="output size ", type=int, required=False, default=100,
                         help="Output size in characters of the values generated")
     return parser.parse_args()
@@ -78,17 +81,18 @@ if __name__ == '__main__':
             fcm.update(f.read())
 
     generator = Generator(fcm)
-
-    print("Press Ctrl-Z to stop response")  
-    while True:
-        context = input("Input: ")
-        text_generated = generator.generate_string(context, args.output)
-        print("Generated:")
-        for char in text_generated:
-            print(char, end='', flush=True)
-            if passNext:
-                passNext = False
-                break
-            time.sleep(0.05)        
-        print("\n")
-    
+    if args.context == None:
+        print("Press Ctrl-Z to stop response")  
+        while True:
+            context = input("Input: ")
+            text_generated = generator.generate_string(context, args.output)
+            print("Generated:")
+            for char in text_generated:
+                print(char, end='', flush=True)
+                if passNext:
+                    passNext = False
+                    break
+                time.sleep(0.05)
+            print("\n")
+    else:
+        print(generator.generate_string(' '.join(args.context), args.output))
