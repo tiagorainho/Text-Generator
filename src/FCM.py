@@ -79,14 +79,12 @@ class FCM:
                 Pec = (t[1] + self.alpha) / (Psc + self.alpha * self.cardinality)
                 information_amount = - math.log2(Pec)
                 Hc += information_amount * Pec
-            """ ## retirar isto
             if self.alpha != 0 and self.cardinality > len(tuple_list):
                 # in case there are 0 occurences, calculate Pec for 0
                 Pec = (self.alpha) / (Psc + self.alpha * self.cardinality)
                 information_amount = - math.log2(Pec)
                 # multiply by number of null cells (0 occurences) of the context row
                 Hc += (information_amount * Pec) * (self.cardinality - len(tuple_list))
-            """
             H += Hc * Psc/sum_Psc
         return H
 
