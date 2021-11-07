@@ -31,24 +31,25 @@ class FCM:
         self.load_alphabet(text)
         last_characters = text[:self.k]
         for i in range(self.k, len(text)):
-            c = text[i]
+            current_char = text[i]
             # add to finite context model
             occurences = self.finitecontext.get(last_characters)
             if occurences != None:
                 found = False
                 for tpl in occurences:
-                    if tpl[0] == c:
+                    if tpl[0] == current_char:
                         found = True
-                        aux = (tpl[0], tpl[1]+1)
+                        new_tpl = (tpl[0], tpl[1]+1)
                         occurences.remove(tpl)
                         # insert in the beginning because its more probable to find in the next search
-                        occurences.insert(0, aux)
+                        occurences.insert(0, new_tpl)
                         break
                 if not found:
-                    occurences.append((c,1))
+                    # insert in the end because its probable not commom
+                    occurences.append((current_char,1))
             else:
-                self.finitecontext[last_characters] = [(c,1)]
-            last_characters = last_characters[1:] + c
+                self.finitecontext[last_characters] = [(current_char,1)]
+            last_characters = last_characters[1:] + current_char
 
 
     def load_alphabet(self, text:str):

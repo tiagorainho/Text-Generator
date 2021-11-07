@@ -18,7 +18,6 @@ def results_generator(k:int, alpha:float, files:List[str], start_text:str, seed:
     result = ''
     for _ in range(generation_length):
         result += next(text_generator)
-    
     return result
 
 
@@ -40,27 +39,21 @@ def results_fcm(k:int, alpha: float, files: List[str]):
 
 
 if __name__ == '__main__':
+    test_entropy, test_generator = False, True
 
-    text = "ola tudo bem pessoal"
-    k = 3
-    
-    
-    #sliced = (text[i:i+16] for i in range(0,len(text), 1))
-    #sliced = ((text[i:i+k], text[i+k:i+k+1]) for i in range(0, len(text)-k, 1))
-    # sliced = [(text[x:x+k], text[x+k:x+k+1]) for x in range(0, len(text)-k, 1)]
-    # for s, b in sliced:
-    #     print(f"{s} -> {b}")
-    # exit(0)
-    # files = ["../example/biblia.txt"]
-    # files_str = []
-    # for file in files:
-    #     with open(file) as f:
-    #         print(f"Reading file {f.name}")
-    #         files_str.append(f.read().replace('\n', ''))
+    files = ["../example/biblia.txt"]
+    if test_generator:
+        files_str = []
+        for file in files:
+            with open(file) as f:
+                print(f"Reading file {f.name}")
+                files_str.append(f.read())
 
     for alpha in [x/10 for x in range(0, 11)]:
         for k in range(1,21):
-            entropy = results_fcm(k, alpha, ["../example/biblia.txt"])
-            print(f"k: {k}  alpha: {alpha}  entropy: {entropy}")
-            # print(f'\'{results_generator(k, alpha, files_str, "and god said, let the", 10, 500)}\'')
+            if test_entropy:
+                entropy = results_fcm(k, alpha, files)
+                print(f"k: {k}  alpha: {alpha}  entropy: {entropy}")
+            if test_generator:
+                print(f'\'{results_generator(k, alpha, files_str, "and god said, let the", 10, 500)}\'')
 

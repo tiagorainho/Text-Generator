@@ -45,20 +45,32 @@ def convert_to_latex(text: str):
 
 def convert_to_js(text:str):
     points = 'var points = ['
+    last_info = [None, None]
     with open(text) as file:
         rows = file.read().splitlines()
         for row in rows:
-            parts = row.split(" ")
-            point = "{"
-            for i in range(0, len(parts), 3):
-                point += f'\"{parts[i].split(":")[0]}\": {parts[i+1]},'
-            point += "},\n"
-            points += point
+            if 'fcm_creation_elapsed_time:' in row:
+                last_info[0] = row.split(' ')[1]
+            elif 'fcm_calculate_entropy_time:' in row:
+                last_info[1] = row.split(' ')[1]
+            elif 'k:' in row and 'alpha:' in row and 'entropy:' in row:
+                parts = row.split(" ")
+                point = "{"
+                for i in range(0, len(parts), 3):
+                    point += f'\"{parts[i].split(":")[0]}\": {parts[i+1]},'
+                if last_info[0] != None:
+                    point += f"\"creation_elapsed_time\": {last_info[0]}, "
+                if last_info[1] != None:
+                    point += f"\"entropy_calculation_time\": {last_info[1]}"
+                point += "},\n"
+                points += point
+                last_info = [None, None]
     points += "]"
     return points
 
-points = convert_to_latex_transposed("entropy.txt")
-print(points)
+if __name__ == '__main__':
+    points = convert_to_js("entropy.txt")
+    print(points)
 
-# with open('points.js', 'w') as file:
-#   file.write(points)
+    with open('points.js', 'w') as file:
+        file.write(points)
