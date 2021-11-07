@@ -1,0 +1,661 @@
+ 
+fcm_creation_elapsed_time: 2.8353729248046875
+fcm_calculate_entropy_time: 0.00043129920959472656
+k: 1  alpha: 0.0  entropy: 3.318715864864057
+fcm_creation_elapsed_time: 2.6904499530792236
+fcm_calculate_entropy_time: 0.003845691680908203
+k: 2  alpha: 0.0  entropy: 2.5475807207005294
+fcm_creation_elapsed_time: 2.6791369915008545
+fcm_calculate_entropy_time: 0.02247905731201172
+k: 3  alpha: 0.0  entropy: 1.996888021903452
+fcm_creation_elapsed_time: 2.9829392433166504
+fcm_calculate_entropy_time: 0.09490966796875
+k: 4  alpha: 0.0  entropy: 1.6616440838935975
+fcm_creation_elapsed_time: 3.4350502490997314
+fcm_calculate_entropy_time: 0.24222660064697266
+k: 5  alpha: 0.0  entropy: 1.440711082964097
+fcm_creation_elapsed_time: 3.854626178741455
+fcm_calculate_entropy_time: 0.4585225582122803
+k: 6  alpha: 0.0  entropy: 1.2556079901928283
+fcm_creation_elapsed_time: 4.03810453414917
+fcm_calculate_entropy_time: 0.7546513080596924
+k: 7  alpha: 0.0  entropy: 1.078653326400573
+fcm_creation_elapsed_time: 4.339202165603638
+fcm_calculate_entropy_time: 1.0145905017852783
+k: 8  alpha: 0.0  entropy: 0.8999127878267962
+fcm_creation_elapsed_time: 4.5317864418029785
+fcm_calculate_entropy_time: 1.3121743202209473
+k: 9  alpha: 0.0  entropy: 0.7335641784027551
+fcm_creation_elapsed_time: 4.753798007965088
+fcm_calculate_entropy_time: 1.6010382175445557
+k: 10  alpha: 0.0  entropy: 0.5867716951778013
+fcm_creation_elapsed_time: 5.0139479637146
+fcm_calculate_entropy_time: 1.8251028060913086
+k: 11  alpha: 0.0  entropy: 0.464388849367552
+fcm_creation_elapsed_time: 4.522675037384033
+fcm_calculate_entropy_time: 2.034897565841675
+k: 12  alpha: 0.0  entropy: 0.36094177336592664
+fcm_creation_elapsed_time: 5.356403589248657
+fcm_calculate_entropy_time: 2.18660044670105
+k: 13  alpha: 0.0  entropy: 0.2768248563130368
+fcm_creation_elapsed_time: 5.28307032585144
+fcm_calculate_entropy_time: 2.367406129837036
+k: 14  alpha: 0.0  entropy: 0.21241152853473194
+fcm_creation_elapsed_time: 4.9022862911224365
+fcm_calculate_entropy_time: 2.4707984924316406
+k: 15  alpha: 0.0  entropy: 0.16489579525298595
+fcm_creation_elapsed_time: 4.855180978775024
+fcm_calculate_entropy_time: 2.5502941608428955
+k: 16  alpha: 0.0  entropy: 0.12802210142465748
+fcm_creation_elapsed_time: 4.1769280433654785
+fcm_calculate_entropy_time: 2.6077470779418945
+k: 17  alpha: 0.0  entropy: 0.09957619338077799
+fcm_creation_elapsed_time: 4.6835222244262695
+fcm_calculate_entropy_time: 2.6540794372558594
+k: 18  alpha: 0.0  entropy: 0.07738589952577588
+fcm_creation_elapsed_time: 4.4228808879852295
+fcm_calculate_entropy_time: 2.684969663619995
+k: 19  alpha: 0.0  entropy: 0.060622752659642315
+fcm_creation_elapsed_time: 4.3834497928619385
+fcm_calculate_entropy_time: 2.709805727005005
+k: 20  alpha: 0.0  entropy: 0.04796142261634372
+fcm_creation_elapsed_time: 2.813438892364502
+fcm_calculate_entropy_time: 0.00047588348388671875
+k: 1  alpha: 0.1  entropy: 3.3188138920378174
+fcm_creation_elapsed_time: 2.6646015644073486
+fcm_calculate_entropy_time: 0.0039031505584716797
+k: 2  alpha: 0.1  entropy: 2.5482737364530457
+fcm_creation_elapsed_time: 2.637355089187622
+fcm_calculate_entropy_time: 0.02262735366821289
+k: 3  alpha: 0.1  entropy: 1.999993780895881
+fcm_creation_elapsed_time: 2.9100663661956787
+fcm_calculate_entropy_time: 0.09546303749084473
+k: 4  alpha: 0.1  entropy: 1.6723941481352171
+fcm_creation_elapsed_time: 3.2616374492645264
+fcm_calculate_entropy_time: 0.24491190910339355
+k: 5  alpha: 0.1  entropy: 1.4699965848318886
+fcm_creation_elapsed_time: 3.5640642642974854
+fcm_calculate_entropy_time: 0.46119117736816406
+k: 6  alpha: 0.1  entropy: 1.3166664084528932
+fcm_creation_elapsed_time: 4.117794752120972
+fcm_calculate_entropy_time: 0.7337486743927002
+k: 7  alpha: 0.1  entropy: 1.1773387146417351
+fcm_creation_elapsed_time: 4.338030815124512
+fcm_calculate_entropy_time: 1.033827304840088
+k: 8  alpha: 0.1  entropy: 1.0401210609516802
+fcm_creation_elapsed_time: 4.540676116943359
+fcm_calculate_entropy_time: 1.314302921295166
+k: 9  alpha: 0.1  entropy: 0.919244456232206
+fcm_creation_elapsed_time: 4.67822527885437
+fcm_calculate_entropy_time: 1.5827078819274902
+k: 10  alpha: 0.1  entropy: 0.8168104238269389
+fcm_creation_elapsed_time: 4.942390203475952
+fcm_calculate_entropy_time: 1.8484060764312744
+k: 11  alpha: 0.1  entropy: 0.7335357861855916
+fcm_creation_elapsed_time: 5.018028497695923
+fcm_calculate_entropy_time: 2.054982900619507
+k: 12  alpha: 0.1  entropy: 0.663473819684529
+fcm_creation_elapsed_time: 5.140221834182739
+fcm_calculate_entropy_time: 2.212998151779175
+k: 13  alpha: 0.1  entropy: 0.6086053000322365
+fcm_creation_elapsed_time: 5.152780055999756
+fcm_calculate_entropy_time: 2.3760359287261963
+k: 14  alpha: 0.1  entropy: 0.5682413693460082
+fcm_creation_elapsed_time: 5.245233058929443
+fcm_calculate_entropy_time: 2.4921441078186035
+k: 15  alpha: 0.1  entropy: 0.5392188392417974
+fcm_creation_elapsed_time: 4.35648775100708
+fcm_calculate_entropy_time: 2.57450008392334
+k: 16  alpha: 0.1  entropy: 0.5165703099591906
+fcm_creation_elapsed_time: 4.578964471817017
+fcm_calculate_entropy_time: 2.6485912799835205
+k: 17  alpha: 0.1  entropy: 0.49922060707608146
+fcm_creation_elapsed_time: 4.651177406311035
+fcm_calculate_entropy_time: 2.6796457767486572
+k: 18  alpha: 0.1  entropy: 0.48549403457198875
+fcm_creation_elapsed_time: 4.256348371505737
+fcm_calculate_entropy_time: 2.717740774154663
+k: 19  alpha: 0.1  entropy: 0.4753250366081851
+fcm_creation_elapsed_time: 4.4407877922058105
+fcm_calculate_entropy_time: 2.721951484680176
+k: 20  alpha: 0.1  entropy: 0.467819284000089
+fcm_creation_elapsed_time: 2.7931065559387207
+fcm_calculate_entropy_time: 0.0004360675811767578
+k: 1  alpha: 0.2  entropy: 3.3189109155244054
+fcm_creation_elapsed_time: 2.66483736038208
+fcm_calculate_entropy_time: 0.003883838653564453
+k: 2  alpha: 0.2  entropy: 2.5488438164527962
+fcm_creation_elapsed_time: 2.658107280731201
+fcm_calculate_entropy_time: 0.022732019424438477
+k: 3  alpha: 0.2  entropy: 2.0016460537715366
+fcm_creation_elapsed_time: 2.9335944652557373
+fcm_calculate_entropy_time: 0.10035157203674316
+k: 4  alpha: 0.2  entropy: 1.6742529176097454
+fcm_creation_elapsed_time: 3.241942882537842
+fcm_calculate_entropy_time: 0.24495840072631836
+k: 5  alpha: 0.2  entropy: 1.4690015668359837
+fcm_creation_elapsed_time: 3.77128267288208
+fcm_calculate_entropy_time: 0.4608914852142334
+k: 6  alpha: 0.2  entropy: 1.3096375632356874
+fcm_creation_elapsed_time: 4.177932024002075
+fcm_calculate_entropy_time: 0.7301476001739502
+k: 7  alpha: 0.2  entropy: 1.1598099988015143
+fcm_creation_elapsed_time: 4.384859800338745
+fcm_calculate_entropy_time: 1.0351345539093018
+k: 8  alpha: 0.2  entropy: 1.010063272054781
+fcm_creation_elapsed_time: 4.50749397277832
+fcm_calculate_entropy_time: 1.3225185871124268
+k: 9  alpha: 0.2  entropy: 0.8773867733493544
+fcm_creation_elapsed_time: 4.682551145553589
+fcm_calculate_entropy_time: 1.5806727409362793
+k: 10  alpha: 0.2  entropy: 0.7643374774391286
+fcm_creation_elapsed_time: 4.946764230728149
+fcm_calculate_entropy_time: 1.837392807006836
+k: 11  alpha: 0.2  entropy: 0.6713825827503063
+fcm_creation_elapsed_time: 4.981215238571167
+fcm_calculate_entropy_time: 2.0440402030944824
+k: 12  alpha: 0.2  entropy: 0.5931345835208786
+fcm_creation_elapsed_time: 5.1300413608551025
+fcm_calculate_entropy_time: 2.2221503257751465
+k: 13  alpha: 0.2  entropy: 0.532094255681951
+fcm_creation_elapsed_time: 5.157484769821167
+fcm_calculate_entropy_time: 2.364161252975464
+k: 14  alpha: 0.2  entropy: 0.48701997081044646
+fcm_creation_elapsed_time: 5.202036380767822
+fcm_calculate_entropy_time: 2.498721122741699
+k: 15  alpha: 0.2  entropy: 0.4541665129045911
+fcm_creation_elapsed_time: 4.3379833698272705
+fcm_calculate_entropy_time: 2.557318925857544
+k: 16  alpha: 0.2  entropy: 0.4285111357638787
+fcm_creation_elapsed_time: 4.5881593227386475
+fcm_calculate_entropy_time: 2.6504218578338623
+k: 17  alpha: 0.2  entropy: 0.40882334198135295
+fcm_creation_elapsed_time: 4.63907527923584
+fcm_calculate_entropy_time: 2.70849871635437
+k: 18  alpha: 0.2  entropy: 0.3932357305194691
+fcm_creation_elapsed_time: 4.2248945236206055
+fcm_calculate_entropy_time: 2.7218940258026123
+k: 19  alpha: 0.2  entropy: 0.3816421573170699
+fcm_creation_elapsed_time: 4.42304539680481
+fcm_calculate_entropy_time: 2.7317662239074707
+k: 20  alpha: 0.2  entropy: 0.3730315812715078
+fcm_creation_elapsed_time: 2.781742811203003
+fcm_calculate_entropy_time: 0.0005078315734863281
+k: 1  alpha: 0.3  entropy: 3.3190075127022554
+fcm_creation_elapsed_time: 2.6615946292877197
+fcm_calculate_entropy_time: 0.003881692886352539
+k: 2  alpha: 0.3  entropy: 2.549373780011852
+fcm_creation_elapsed_time: 2.6638834476470947
+fcm_calculate_entropy_time: 0.02295660972595215
+k: 3  alpha: 0.3  entropy: 2.0029185721629004
+fcm_creation_elapsed_time: 2.9337949752807617
+fcm_calculate_entropy_time: 0.09562015533447266
+k: 4  alpha: 0.3  entropy: 1.6747481445737624
+fcm_creation_elapsed_time: 3.2529213428497314
+fcm_calculate_entropy_time: 0.24552559852600098
+k: 5  alpha: 0.3  entropy: 1.4656282624129338
+fcm_creation_elapsed_time: 3.769141912460327
+fcm_calculate_entropy_time: 0.4683210849761963
+k: 6  alpha: 0.3  entropy: 1.3002225597827448
+fcm_creation_elapsed_time: 4.160914421081543
+fcm_calculate_entropy_time: 0.7232153415679932
+k: 7  alpha: 0.3  entropy: 1.1418759699016545
+fcm_creation_elapsed_time: 4.347686052322388
+fcm_calculate_entropy_time: 1.0316784381866455
+k: 8  alpha: 0.3  entropy: 0.9834538454204949
+fcm_creation_elapsed_time: 4.491830587387085
+fcm_calculate_entropy_time: 1.3249468803405762
+k: 9  alpha: 0.3  entropy: 0.8436495655417889
+fcm_creation_elapsed_time: 4.677960157394409
+fcm_calculate_entropy_time: 1.583366870880127
+k: 10  alpha: 0.3  entropy: 0.7249579398812254
+fcm_creation_elapsed_time: 4.957132339477539
+fcm_calculate_entropy_time: 1.8446471691131592
+k: 11  alpha: 0.3  entropy: 0.627376751260661
+fcm_creation_elapsed_time: 5.005380868911743
+fcm_calculate_entropy_time: 2.0427334308624268
+k: 12  alpha: 0.3  entropy: 0.545744374565649
+fcm_creation_elapsed_time: 5.1239612102508545
+fcm_calculate_entropy_time: 2.209240198135376
+k: 13  alpha: 0.3  entropy: 0.48264150290280494
+fcm_creation_elapsed_time: 5.1820597648620605
+fcm_calculate_entropy_time: 2.361605644226074
+k: 14  alpha: 0.3  entropy: 0.4362508888781338
+fcm_creation_elapsed_time: 5.235400915145874
+fcm_calculate_entropy_time: 2.4798192977905273
+k: 15  alpha: 0.3  entropy: 0.40242668721664754
+fcm_creation_elapsed_time: 4.328796863555908
+fcm_calculate_entropy_time: 2.5595452785491943
+k: 16  alpha: 0.3  entropy: 0.3761388944735081
+fcm_creation_elapsed_time: 4.5824549198150635
+fcm_calculate_entropy_time: 2.6521224975585938
+k: 17  alpha: 0.3  entropy: 0.3560436629651855
+fcm_creation_elapsed_time: 4.680127382278442
+fcm_calculate_entropy_time: 2.702265977859497
+k: 18  alpha: 0.3  entropy: 0.3401824013812089
+fcm_creation_elapsed_time: 4.231475830078125
+fcm_calculate_entropy_time: 2.714747667312622
+k: 19  alpha: 0.3  entropy: 0.328436067930583
+fcm_creation_elapsed_time: 4.421688795089722
+fcm_calculate_entropy_time: 2.727937698364258
+k: 20  alpha: 0.3  entropy: 0.3197350349463218
+fcm_creation_elapsed_time: 2.789369821548462
+fcm_calculate_entropy_time: 0.00044035911560058594
+k: 1  alpha: 0.4  entropy: 3.3191037023291305
+fcm_creation_elapsed_time: 2.668558359146118
+fcm_calculate_entropy_time: 0.003909111022949219
+k: 2  alpha: 0.4  entropy: 2.549877483481881
+fcm_creation_elapsed_time: 2.642721176147461
+fcm_calculate_entropy_time: 0.02247142791748047
+k: 3  alpha: 0.4  entropy: 2.0039763016319805
+fcm_creation_elapsed_time: 2.9423913955688477
+fcm_calculate_entropy_time: 0.09529471397399902
+k: 4  alpha: 0.4  entropy: 1.6746736366694066
+fcm_creation_elapsed_time: 3.250185251235962
+fcm_calculate_entropy_time: 0.24782919883728027
+k: 5  alpha: 0.4  entropy: 1.4617229984365157
+fcm_creation_elapsed_time: 3.7706527709960938
+fcm_calculate_entropy_time: 0.45955634117126465
+k: 6  alpha: 0.4  entropy: 1.2910386499147388
+fcm_creation_elapsed_time: 4.157332897186279
+fcm_calculate_entropy_time: 0.7238674163818359
+k: 7  alpha: 0.4  entropy: 1.1259617736771887
+fcm_creation_elapsed_time: 4.364945411682129
+fcm_calculate_entropy_time: 1.0191068649291992
+k: 8  alpha: 0.4  entropy: 0.9613603287157588
+fcm_creation_elapsed_time: 4.487480401992798
+fcm_calculate_entropy_time: 1.3230063915252686
+k: 9  alpha: 0.4  entropy: 0.8169634695135852
+fcm_creation_elapsed_time: 4.681543350219727
+fcm_calculate_entropy_time: 1.597524881362915
+k: 10  alpha: 0.4  entropy: 0.695013248618096
+fcm_creation_elapsed_time: 4.952080249786377
+fcm_calculate_entropy_time: 1.8483946323394775
+k: 11  alpha: 0.4  entropy: 0.5950116705129556
+fcm_creation_elapsed_time: 4.97750449180603
+fcm_calculate_entropy_time: 2.0412001609802246
+k: 12  alpha: 0.4  entropy: 0.5119211599235832
+fcm_creation_elapsed_time: 5.118426084518433
+fcm_calculate_entropy_time: 2.2092015743255615
+k: 13  alpha: 0.4  entropy: 0.4482493372912368
+fcm_creation_elapsed_time: 5.151809215545654
+fcm_calculate_entropy_time: 2.3645036220550537
+k: 14  alpha: 0.4  entropy: 0.40168008592655396
+fcm_creation_elapsed_time: 5.252206563949585
+fcm_calculate_entropy_time: 2.4786899089813232
+k: 15  alpha: 0.4  entropy: 0.36779578195367846
+fcm_creation_elapsed_time: 4.342020750045776
+fcm_calculate_entropy_time: 2.5655455589294434
+k: 16  alpha: 0.4  entropy: 0.34159028461646335
+fcm_creation_elapsed_time: 4.5536110401153564
+fcm_calculate_entropy_time: 2.649412155151367
+k: 17  alpha: 0.4  entropy: 0.3216374093866274
+fcm_creation_elapsed_time: 4.648908615112305
+fcm_calculate_entropy_time: 2.6596856117248535
+k: 18  alpha: 0.4  entropy: 0.3059355750576798
+fcm_creation_elapsed_time: 4.217593431472778
+fcm_calculate_entropy_time: 2.703669548034668
+k: 19  alpha: 0.4  entropy: 0.294363744496757
+fcm_creation_elapsed_time: 4.400944232940674
+fcm_calculate_entropy_time: 2.726212978363037
+k: 20  alpha: 0.4  entropy: 0.2858214046424394
+fcm_creation_elapsed_time: 2.7916150093078613
+fcm_calculate_entropy_time: 0.0004432201385498047
+k: 1  alpha: 0.5  entropy: 3.319199492917383
+fcm_creation_elapsed_time: 2.6548404693603516
+fcm_calculate_entropy_time: 0.0038864612579345703
+k: 2  alpha: 0.5  entropy: 2.550361284149648
+fcm_creation_elapsed_time: 2.659266710281372
+fcm_calculate_entropy_time: 0.022672414779663086
+k: 3  alpha: 0.5  entropy: 2.004887225710811
+fcm_creation_elapsed_time: 2.92643404006958
+fcm_calculate_entropy_time: 0.09596562385559082
+k: 4  alpha: 0.5  entropy: 1.6742947338724052
+fcm_creation_elapsed_time: 3.2548532485961914
+fcm_calculate_entropy_time: 0.24637985229492188
+k: 5  alpha: 0.5  entropy: 1.4577360880458574
+fcm_creation_elapsed_time: 3.775217294692993
+fcm_calculate_entropy_time: 0.4608345031738281
+k: 6  alpha: 0.5  entropy: 1.2824644890922205
+fcm_creation_elapsed_time: 4.149304389953613
+fcm_calculate_entropy_time: 0.726604700088501
+k: 7  alpha: 0.5  entropy: 1.1119364472220503
+fcm_creation_elapsed_time: 4.383273124694824
+fcm_calculate_entropy_time: 1.0143718719482422
+k: 8  alpha: 0.5  entropy: 0.9427242317914817
+fcm_creation_elapsed_time: 4.491443634033203
+fcm_calculate_entropy_time: 1.3176653385162354
+k: 9  alpha: 0.5  entropy: 0.79518405421082
+fcm_creation_elapsed_time: 4.672144174575806
+fcm_calculate_entropy_time: 1.5985534191131592
+k: 10  alpha: 0.5  entropy: 0.6712385805370124
+fcm_creation_elapsed_time: 4.941889524459839
+fcm_calculate_entropy_time: 1.835298776626587
+k: 11  alpha: 0.5  entropy: 0.5699176929845047
+fcm_creation_elapsed_time: 4.973382472991943
+fcm_calculate_entropy_time: 2.036346912384033
+k: 12  alpha: 0.5  entropy: 0.4862693713329506
+fcm_creation_elapsed_time: 5.080362558364868
+fcm_calculate_entropy_time: 2.2035508155822754
+k: 13  alpha: 0.5  entropy: 0.42266302160454783
+fcm_creation_elapsed_time: 5.123274564743042
+fcm_calculate_entropy_time: 2.3602311611175537
+k: 14  alpha: 0.5  entropy: 0.3763628497537158
+fcm_creation_elapsed_time: 5.231404542922974
+fcm_calculate_entropy_time: 2.4702913761138916
+k: 15  alpha: 0.5  entropy: 0.3427604287367252
+fcm_creation_elapsed_time: 4.321986675262451
+fcm_calculate_entropy_time: 2.568561315536499
+k: 16  alpha: 0.5  entropy: 0.31688818856379103
+fcm_creation_elapsed_time: 4.544467926025391
+fcm_calculate_entropy_time: 2.6413636207580566
+k: 17  alpha: 0.5  entropy: 0.29725760749152436
+fcm_creation_elapsed_time: 4.645893096923828
+fcm_calculate_entropy_time: 2.6408379077911377
+k: 18  alpha: 0.5  entropy: 0.28184914933589167
+fcm_creation_elapsed_time: 4.213250637054443
+fcm_calculate_entropy_time: 2.6940672397613525
+k: 19  alpha: 0.5  entropy: 0.27054439766389293
+fcm_creation_elapsed_time: 4.4005208015441895
+fcm_calculate_entropy_time: 2.7285189628601074
+k: 20  alpha: 0.5  entropy: 0.2622262747567734
+fcm_creation_elapsed_time: 2.8046562671661377
+fcm_calculate_entropy_time: 0.00047707557678222656
+k: 1  alpha: 0.6  entropy: 3.3192948917450917
+fcm_creation_elapsed_time: 2.6556434631347656
+fcm_calculate_entropy_time: 0.0038771629333496094
+k: 2  alpha: 0.6  entropy: 2.5508289103075383
+fcm_creation_elapsed_time: 2.679537534713745
+fcm_calculate_entropy_time: 0.022513628005981445
+k: 3  alpha: 0.6  entropy: 2.0056881043119374
+fcm_creation_elapsed_time: 2.931655168533325
+fcm_calculate_entropy_time: 0.09492969512939453
+k: 4  alpha: 0.6  entropy: 1.6737322613299985
+fcm_creation_elapsed_time: 3.262272596359253
+fcm_calculate_entropy_time: 0.24312925338745117
+k: 5  alpha: 0.6  entropy: 1.453814124594374
+fcm_creation_elapsed_time: 3.7593576908111572
+fcm_calculate_entropy_time: 0.4584972858428955
+k: 6  alpha: 0.6  entropy: 1.274518767199841
+fcm_creation_elapsed_time: 4.149348974227905
+fcm_calculate_entropy_time: 0.7224786281585693
+k: 7  alpha: 0.6  entropy: 1.0994696173508696
+fcm_creation_elapsed_time: 4.361780881881714
+fcm_calculate_entropy_time: 1.0221307277679443
+k: 8  alpha: 0.6  entropy: 0.9266915861406355
+fcm_creation_elapsed_time: 4.486595392227173
+fcm_calculate_entropy_time: 1.3201701641082764
+k: 9  alpha: 0.6  entropy: 0.7769090628081149
+fcm_creation_elapsed_time: 4.65291690826416
+fcm_calculate_entropy_time: 1.588721752166748
+k: 10  alpha: 0.6  entropy: 0.6517068431497797
+fcm_creation_elapsed_time: 4.929978370666504
+fcm_calculate_entropy_time: 1.833458423614502
+k: 11  alpha: 0.6  entropy: 0.5496786342191929
+fcm_creation_elapsed_time: 4.958008766174316
+fcm_calculate_entropy_time: 2.0282814502716064
+k: 12  alpha: 0.6  entropy: 0.46594086880873703
+fcm_creation_elapsed_time: 5.086423397064209
+fcm_calculate_entropy_time: 2.2151615619659424
+k: 13  alpha: 0.6  entropy: 0.40269507935137977
+fcm_creation_elapsed_time: 5.143274784088135
+fcm_calculate_entropy_time: 2.3507232666015625
+k: 14  alpha: 0.6  entropy: 0.3568532518630627
+fcm_creation_elapsed_time: 5.229501485824585
+fcm_calculate_entropy_time: 2.4820010662078857
+k: 15  alpha: 0.6  entropy: 0.32366857944064453
+fcm_creation_elapsed_time: 4.307066917419434
+fcm_calculate_entropy_time: 2.5505475997924805
+k: 16  alpha: 0.6  entropy: 0.29821843786548896
+fcm_creation_elapsed_time: 4.556094408035278
+fcm_calculate_entropy_time: 2.6472342014312744
+k: 17  alpha: 0.6  entropy: 0.27896565504802395
+fcm_creation_elapsed_time: 4.630395412445068
+fcm_calculate_entropy_time: 2.647517204284668
+k: 18  alpha: 0.6  entropy: 0.2638867577739848
+fcm_creation_elapsed_time: 4.196262359619141
+fcm_calculate_entropy_time: 2.7047817707061768
+k: 19  alpha: 0.6  entropy: 0.2528681020706861
+fcm_creation_elapsed_time: 4.411379814147949
+fcm_calculate_entropy_time: 2.73009991645813
+k: 20  alpha: 0.6  entropy: 0.24478406845265913
+fcm_creation_elapsed_time: 2.7952463626861572
+fcm_calculate_entropy_time: 0.0004718303680419922
+k: 1  alpha: 0.7  entropy: 3.319389906462481
+fcm_creation_elapsed_time: 2.6456332206726074
+fcm_calculate_entropy_time: 0.004550933837890625
+k: 2  alpha: 0.7  entropy: 2.5512828336002547
+fcm_creation_elapsed_time: 2.6653025150299072
+fcm_calculate_entropy_time: 0.022104978561401367
+k: 3  alpha: 0.7  entropy: 2.0064018615516312
+fcm_creation_elapsed_time: 2.926753282546997
+fcm_calculate_entropy_time: 0.09455609321594238
+k: 4  alpha: 0.7  entropy: 1.6730509761112462
+fcm_creation_elapsed_time: 3.2266504764556885
+fcm_calculate_entropy_time: 0.24908447265625
+k: 5  alpha: 0.7  entropy: 1.450008821952602
+fcm_creation_elapsed_time: 3.732898473739624
+fcm_calculate_entropy_time: 0.46761226654052734
+k: 6  alpha: 0.7  entropy: 1.2671460149760216
+fcm_creation_elapsed_time: 4.137938976287842
+fcm_calculate_entropy_time: 0.7230496406555176
+k: 7  alpha: 0.7  entropy: 1.0882743186285508
+fcm_creation_elapsed_time: 4.332713842391968
+fcm_calculate_entropy_time: 1.0159151554107666
+k: 8  alpha: 0.7  entropy: 0.9126632641237903
+fcm_creation_elapsed_time: 4.462027072906494
+fcm_calculate_entropy_time: 1.3120043277740479
+k: 9  alpha: 0.7  entropy: 0.7612357087781635
+fcm_creation_elapsed_time: 4.65145468711853
+fcm_calculate_entropy_time: 1.5843846797943115
+k: 10  alpha: 0.7  entropy: 0.6352399929859226
+fcm_creation_elapsed_time: 4.938339948654175
+fcm_calculate_entropy_time: 1.836864709854126
+k: 11  alpha: 0.7  entropy: 0.5328707055533455
+fcm_creation_elapsed_time: 4.977077960968018
+fcm_calculate_entropy_time: 2.0328993797302246
+k: 12  alpha: 0.7  entropy: 0.44930386026298424
+fcm_creation_elapsed_time: 5.093366861343384
+fcm_calculate_entropy_time: 2.2107350826263428
+k: 13  alpha: 0.7  entropy: 0.386560181697839
+fcm_creation_elapsed_time: 5.143936634063721
+fcm_calculate_entropy_time: 2.3471202850341797
+k: 14  alpha: 0.7  entropy: 0.34125476694716333
+fcm_creation_elapsed_time: 5.194453954696655
+fcm_calculate_entropy_time: 2.5094215869903564
+k: 15  alpha: 0.7  entropy: 0.30853775942595363
+fcm_creation_elapsed_time: 4.33967661857605
+fcm_calculate_entropy_time: 2.5506110191345215
+k: 16  alpha: 0.7  entropy: 0.2835336815345511
+fcm_creation_elapsed_time: 4.55681586265564
+fcm_calculate_entropy_time: 2.642366409301758
+k: 17  alpha: 0.7  entropy: 0.2646666043119915
+fcm_creation_elapsed_time: 4.625257253646851
+fcm_calculate_entropy_time: 2.6415724754333496
+k: 18  alpha: 0.7  entropy: 0.24991734442541072
+fcm_creation_elapsed_time: 4.196354627609253
+fcm_calculate_entropy_time: 2.7047297954559326
+k: 19  alpha: 0.7  entropy: 0.23917807726441492
+fcm_creation_elapsed_time: 4.3978471755981445
+fcm_calculate_entropy_time: 2.734388828277588
+k: 20  alpha: 0.7  entropy: 0.23131939897924433
+fcm_creation_elapsed_time: 2.8140695095062256
+fcm_calculate_entropy_time: 0.00044083595275878906
+k: 1  alpha: 0.8  entropy: 3.3194845453378656
+fcm_creation_elapsed_time: 2.6518502235412598
+fcm_calculate_entropy_time: 0.0039026737213134766
+k: 2  alpha: 0.8  entropy: 2.551724821339953
+fcm_creation_elapsed_time: 2.6609668731689453
+fcm_calculate_entropy_time: 0.02216172218322754
+k: 3  alpha: 0.8  entropy: 2.007044117072788
+fcm_creation_elapsed_time: 2.918135404586792
+fcm_calculate_entropy_time: 0.09474301338195801
+k: 4  alpha: 0.8  entropy: 1.672289321892063
+fcm_creation_elapsed_time: 3.2445874214172363
+fcm_calculate_entropy_time: 0.24419069290161133
+k: 5  alpha: 0.8  entropy: 1.446336491705006
+fcm_creation_elapsed_time: 3.767564058303833
+fcm_calculate_entropy_time: 0.4583413600921631
+k: 6  alpha: 0.8  entropy: 1.260279911693082
+fcm_creation_elapsed_time: 4.152506113052368
+fcm_calculate_entropy_time: 0.7409586906433105
+k: 7  alpha: 0.8  entropy: 1.0781260300949649
+fcm_creation_elapsed_time: 4.35456395149231
+fcm_calculate_entropy_time: 1.0117161273956299
+k: 8  alpha: 0.8  entropy: 0.9002171358329433
+fcm_creation_elapsed_time: 4.51596999168396
+fcm_calculate_entropy_time: 1.3070952892303467
+k: 9  alpha: 0.8  entropy: 0.7475601946163977
+fcm_creation_elapsed_time: 4.691298484802246
+fcm_calculate_entropy_time: 1.5796246528625488
+k: 10  alpha: 0.8  entropy: 0.6210768620719659
+fcm_creation_elapsed_time: 4.921169996261597
+fcm_calculate_entropy_time: 1.8505713939666748
+k: 11  alpha: 0.8  entropy: 0.5185973049689706
+fcm_creation_elapsed_time: 5.004383563995361
+fcm_calculate_entropy_time: 2.0397448539733887
+k: 12  alpha: 0.8  entropy: 0.4353516914476577
+fcm_creation_elapsed_time: 5.0964882373809814
+fcm_calculate_entropy_time: 2.229279041290283
+k: 13  alpha: 0.8  entropy: 0.37317565540119185
+fcm_creation_elapsed_time: 5.139272212982178
+fcm_calculate_entropy_time: 2.359222888946533
+k: 14  alpha: 0.8  entropy: 0.3284325750850771
+fcm_creation_elapsed_time: 5.224747896194458
+fcm_calculate_entropy_time: 2.494202136993408
+k: 15  alpha: 0.8  entropy: 0.29619422291634995
+fcm_creation_elapsed_time: 4.32783317565918
+fcm_calculate_entropy_time: 2.5693178176879883
+k: 16  alpha: 0.8  entropy: 0.2716323446278356
+fcm_creation_elapsed_time: 4.558323383331299
+fcm_calculate_entropy_time: 2.6417815685272217
+k: 17  alpha: 0.8  entropy: 0.25313970491692805
+fcm_creation_elapsed_time: 4.614675760269165
+fcm_calculate_entropy_time: 2.6543619632720947
+k: 18  alpha: 0.8  entropy: 0.2387063584066196
+fcm_creation_elapsed_time: 4.206624269485474
+fcm_calculate_entropy_time: 2.7215099334716797
+k: 19  alpha: 0.8  entropy: 0.22823079664350568
+fcm_creation_elapsed_time: 4.408890008926392
+fcm_calculate_entropy_time: 2.7304296493530273
+k: 20  alpha: 0.8  entropy: 0.22058276486653097
+fcm_creation_elapsed_time: 2.7835240364074707
+fcm_calculate_entropy_time: 0.0004391670227050781
+k: 1  alpha: 0.9  entropy: 3.319578817118
+fcm_creation_elapsed_time: 2.6442368030548096
+fcm_calculate_entropy_time: 0.0039174556732177734
+k: 2  alpha: 0.9  entropy: 2.5521562047709856
+fcm_creation_elapsed_time: 2.670781373977661
+fcm_calculate_entropy_time: 0.022134065628051758
+k: 3  alpha: 0.9  entropy: 2.00762617387188
+fcm_creation_elapsed_time: 2.907853126525879
+fcm_calculate_entropy_time: 0.0945138931274414
+k: 4  alpha: 0.9  entropy: 1.6714717817102138
+fcm_creation_elapsed_time: 3.2520456314086914
+fcm_calculate_entropy_time: 0.24443840980529785
+k: 5  alpha: 0.9  entropy: 1.4427989633818255
+fcm_creation_elapsed_time: 3.7659096717834473
+fcm_calculate_entropy_time: 0.45680737495422363
+k: 6  alpha: 0.9  entropy: 1.2538590072611857
+fcm_creation_elapsed_time: 4.144181251525879
+fcm_calculate_entropy_time: 0.7332804203033447
+k: 7  alpha: 0.9  entropy: 1.0688513535003876
+fcm_creation_elapsed_time: 4.339225769042969
+fcm_calculate_entropy_time: 1.0121634006500244
+k: 8  alpha: 0.9  entropy: 0.8890482758013996
+fcm_creation_elapsed_time: 4.499169111251831
+fcm_calculate_entropy_time: 1.3097918033599854
+k: 9  alpha: 0.9  entropy: 0.7354621648641543
+fcm_creation_elapsed_time: 4.677217721939087
+fcm_calculate_entropy_time: 1.5739808082580566
+k: 10  alpha: 0.9  entropy: 0.6087010582211909
+fcm_creation_elapsed_time: 4.91046667098999
+fcm_calculate_entropy_time: 1.8361177444458008
+k: 11  alpha: 0.9  entropy: 0.5062621067007285
+fcm_creation_elapsed_time: 4.998547792434692
+fcm_calculate_entropy_time: 2.0437161922454834
+k: 12  alpha: 0.9  entropy: 0.4234257389235385
+fcm_creation_elapsed_time: 5.092117547988892
+fcm_calculate_entropy_time: 2.21893048286438
+k: 13  alpha: 0.9  entropy: 0.3618429472050994
+fcm_creation_elapsed_time: 5.157732009887695
+fcm_calculate_entropy_time: 2.3643136024475098
+k: 14  alpha: 0.9  entropy: 0.3176624444893464
+fcm_creation_elapsed_time: 5.19836163520813
+fcm_calculate_entropy_time: 2.475853443145752
+k: 15  alpha: 0.9  entropy: 0.2858953984606944
+fcm_creation_elapsed_time: 4.320048809051514
+fcm_calculate_entropy_time: 2.5601654052734375
+k: 16  alpha: 0.9  entropy: 0.2617597736404082
+fcm_creation_elapsed_time: 4.534916400909424
+fcm_calculate_entropy_time: 2.632801055908203
+k: 17  alpha: 0.9  entropy: 0.2436228117396009
+fcm_creation_elapsed_time: 4.614634037017822
+fcm_calculate_entropy_time: 2.6495606899261475
+k: 18  alpha: 0.9  entropy: 0.22948679375294057
+fcm_creation_elapsed_time: 4.202038288116455
+fcm_calculate_entropy_time: 2.7015633583068848
+k: 19  alpha: 0.9  entropy: 0.21925672876932398
+fcm_creation_elapsed_time: 4.399136543273926
+fcm_calculate_entropy_time: 2.7220656871795654
+k: 20  alpha: 0.9  entropy: 0.21180336750750223
+fcm_creation_elapsed_time: 2.7997710704803467
+fcm_calculate_entropy_time: 0.00044345855712890625
+k: 1  alpha: 1.0  entropy: 3.3196727308121026
+fcm_creation_elapsed_time: 2.6570169925689697
+fcm_calculate_entropy_time: 0.0038611888885498047
+k: 2  alpha: 1.0  entropy: 2.55257802582023
+fcm_creation_elapsed_time: 2.6817734241485596
+fcm_calculate_entropy_time: 0.02223515510559082
+k: 3  alpha: 1.0  entropy: 2.0081565745085816
+fcm_creation_elapsed_time: 2.9176909923553467
+fcm_calculate_entropy_time: 0.09467458724975586
+k: 4  alpha: 1.0  entropy: 1.6706147647276508
+fcm_creation_elapsed_time: 3.263367176055908
+fcm_calculate_entropy_time: 0.24303436279296875
+k: 5  alpha: 1.0  entropy: 1.4393919617824436
+fcm_creation_elapsed_time: 3.754255771636963
+fcm_calculate_entropy_time: 0.4586949348449707
+k: 6  alpha: 1.0  entropy: 1.2478300337299113
+fcm_creation_elapsed_time: 4.138795375823975
+fcm_calculate_entropy_time: 0.724090576171875
+k: 7  alpha: 1.0  entropy: 1.0603152782301501
+fcm_creation_elapsed_time: 4.341869831085205
+fcm_calculate_entropy_time: 1.011939287185669
+k: 8  alpha: 1.0  entropy: 0.8789304836208062
+fcm_creation_elapsed_time: 4.477284908294678
+fcm_calculate_entropy_time: 1.3143541812896729
+k: 9  alpha: 1.0  entropy: 0.7246385122238249
+fcm_creation_elapsed_time: 4.667304515838623
+fcm_calculate_entropy_time: 1.571385145187378
+k: 10  alpha: 1.0  entropy: 0.5977478337138672
+fcm_creation_elapsed_time: 4.927729368209839
+fcm_calculate_entropy_time: 1.8349690437316895
+k: 11  alpha: 1.0  entropy: 0.49545065274430794
+fcm_creation_elapsed_time: 4.959213972091675
+fcm_calculate_entropy_time: 2.0393457412719727
+k: 12  alpha: 1.0  entropy: 0.41307448882237136
+fcm_creation_elapsed_time: 5.068269968032837
+fcm_calculate_entropy_time: 2.214146137237549
+k: 13  alpha: 1.0  entropy: 0.3520888037209257
+fcm_creation_elapsed_time: 5.140126705169678
+fcm_calculate_entropy_time: 2.3458526134490967
+k: 14  alpha: 1.0  entropy: 0.30845827486820154
+fcm_creation_elapsed_time: 5.198324680328369
+fcm_calculate_entropy_time: 2.471219301223755
+k: 15  alpha: 1.0  entropy: 0.277146580962606
+fcm_creation_elapsed_time: 4.332082986831665
+fcm_calculate_entropy_time: 2.5572609901428223
+k: 16  alpha: 1.0  entropy: 0.2534163689521563
+fcm_creation_elapsed_time: 4.537842273712158
+fcm_calculate_entropy_time: 2.630889892578125
+k: 17  alpha: 1.0  entropy: 0.23561395080718814
+fcm_creation_elapsed_time: 4.636276483535767
+fcm_calculate_entropy_time: 2.649096965789795
+k: 18  alpha: 1.0  entropy: 0.22175560381183745
+fcm_creation_elapsed_time: 4.214112281799316
+fcm_calculate_entropy_time: 2.7011709213256836
+k: 19  alpha: 1.0  entropy: 0.21175288852848356
+fcm_creation_elapsed_time: 4.387754917144775
+fcm_calculate_entropy_time: 2.726855993270874
+k: 20  alpha: 1.0  entropy: 0.20447875432440302

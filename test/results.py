@@ -25,7 +25,7 @@ def results_fcm(k:int, alpha: float, files: List[str]):
     files_str = []
     for file in files:
         with open(file) as f:
-            files_str.append(f.read())
+            files_str.append(f.read()) # elimitar o replace
             
     start = time.time()
     fcm = FCM(k=k, alpha=alpha)
@@ -39,7 +39,7 @@ def results_fcm(k:int, alpha: float, files: List[str]):
 
 
 if __name__ == '__main__':
-    test_entropy, test_generator = False, True
+    test_entropy, test_generator = True, False
 
     files = ["../example/biblia.txt"]
     if test_generator:
