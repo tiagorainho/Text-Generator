@@ -6,9 +6,9 @@ def convert_to_latex_transposed(text: str):
         last_info = [None, None]
         for row in rows:
             if 'fcm_creation_elapsed_time:' in row:
-                last_info[0] = str(round(float(row.split(' ')[1]), 3))
+                last_info[0] = str(round(float(row.split(' ')[1]), 4))
             elif 'fcm_calculate_entropy_time:' in row:
-                last_info[1] = str(round(float(row.split(' ')[1]), 3))
+                last_info[1] = str(round(float(row.split(' ')[1]), 4))
             elif 'k:' in row and 'alpha:' in row and 'entropy:' in row:
                 parts = row.split(" ")
                 k = parts[1]
@@ -21,10 +21,10 @@ def convert_to_latex_transposed(text: str):
                 last_info = [None, None]
     points = "\\begin{center}\n\\begin{tabular}{ | c | c c c c c c c c c c | } \n"
     keys = sorted(list(ds.keys()), key=lambda v: int(v), reverse=True)
-    for key in keys:
+    for j, key in enumerate(keys):
         column = ds[key]
-        point = " "
-        for i, (alpha, value, creation_time, entropy_calculation_time) in enumerate(column):
+        point = str(len(keys)-j) + " & "
+        for i, (alpha, entropy, creation_time, entropy_calculation_time) in enumerate(column):
             if i > 0: point += " & "
             point += entropy_calculation_time
         point += " \\\\ \\hline \n"

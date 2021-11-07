@@ -19,12 +19,21 @@ def results_generator(k:int, alpha:float, files:List[str], start_text:str, seed:
     return result
 
 
-def results_fcm(k:int, alpha: float, files: List[str]):
-    files_str = []
-    for file in files:
-        with open(file) as f:
-            files_str.append(f.read())
-            
+def calculate_entropy_fast(k_range:List[int], alpha_range:List[int], files_str: List[str]):
+    for k in k_range:
+        start = time.time()
+        fcm = FCM(k=k, alpha=0)
+        for file_str in files_str:
+            fcm.update(file_str)
+        print(f"#####   FCM creation: k={k}, creation_time={round(time.time()-start,3)} seconds   #####")
+        for alpha in alpha_range:
+            fcm.alpha = alpha
+            start = time.time()
+            entropy = fcm.calculate_entropy()
+            print(f"k: {k}  alpha: {alpha}  entropy: {entropy}  entropy_calculation_time: {round(time.time()-start,3)}")
+
+
+def results_fcm(k:int, alpha: float, files_str: List[str]):            
     start = time.time()
     fcm = FCM(k=k, alpha=alpha)
     for file_str in files_str:
@@ -38,19 +47,32 @@ def results_fcm(k:int, alpha: float, files: List[str]):
 
 if __name__ == '__main__':
     test_entropy, test_generator = True, False
-    files = ["../example/biblia.txt"]
+    fast_run = True
+    chars_to_generate = 500
+    alpha_range = [x/10 for x in range(0, 11)]
+    k_range = [k for k in range(1,21)]
+    files = ["../example/hp/example1.txt",
+        "../example/hp/example2.txt",
+        "../example/hp/example3.txt",
+        "../example/hp/example4.txt",
+        "../example/hp/example5.txt",
+        "../example/hp/example6.txt",
+        "../example/hp/example7.txt",
+    ]
+
+    files_str = []
+    for file in files:
+        with open(file) as f:
+            print(f"Reading file {f.name}")
+            files_str.append(f.read())
+    
+    if test_entropy:
+        if fast_run:
+            calculate_entropy_fast(k_range, alpha_range, files_str)
+        else:
+            for alpha in alpha_range:
+                for k in k_range:
+                    entropy = results_fcm(k, alpha, files_str)
+                    print(f"k: {k}  alpha: {alpha}  entropy: {entropy}")
     if test_generator:
-        files_str = []
-        for file in files:
-            with open(file) as f:
-                print(f"Reading file {f.name}")
-                files_str.append(f.read())
-
-    for alpha in [x/10 for x in range(0, 11)]:
-        for k in range(1,21):
-            if test_entropy:
-                entropy = results_fcm(k, alpha, files)
-                print(f"k: {k}  alpha: {alpha}  entropy: {entropy}")
-            if test_generator:
-                print(f'\'{results_generator(k, alpha, files_str, "and god said, let the", 10, 500)}\'')
-
+        print(f'\'{results_generator(k, alpha, files_str, "and god said, let the", 10, 500)}\'')

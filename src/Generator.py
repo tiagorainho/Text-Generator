@@ -81,6 +81,7 @@ if __name__ == '__main__':
             fcm.update(f.read())
 
     generator = Generator(fcm)
+    
     if args.context == None:
         print("Press Ctrl-Z to stop response")  
         while True:
