@@ -4,6 +4,7 @@ sys.path.append('../src')
 from FCM import FCM
 from Generator import Generator
 import time
+import cProfile
 
 
 def results_generator(k:int, alpha:float, files:List[str], start_text:str, seed:int, generation_length:int):
@@ -34,20 +35,21 @@ def results_fcm(k:int, alpha: float, files_str: List[str]):
     fcm = FCM(k=k, alpha=alpha)
     for file_str in files_str:
         fcm.update(file_str)
+    print(f"fcm len: {str(len(fcm.finitecontext))}")
     print(f"fcm_creation_elapsed_time: {time.time()-start}")
-    start = time.time()
-    entropy = fcm.calculate_entropy()
-    print(f"fcm_calculate_entropy_time: {time.time()-start}")
-    return entropy
+    #start = time.time()
+    #entropy = fcm.calculate_entropy()
+    #print(f"fcm_calculate_entropy_time: {time.time()-start}")
+    #return entropy
 
 
-if __name__ == '__main__':
+def main():
     test_entropy, test_generator = True, False
-    fast_run = True
+    fast_run = False
     seed = 100
     chars_to_generate = 500
-    alpha_range = [x/10 for x in range(0, 11)]
-    k_range = [k for k in range(1,21)]
+    alpha_range = [0.4]#[x/10 for x in range(0, 11)]
+    k_range = [20]#[k for k in range(1,21)]
     files = ["../example/biblia.txt"]
     
     '''
@@ -67,6 +69,7 @@ if __name__ == '__main__':
             print(f"Reading file {f.name}")
             files_str.append(f.read())
     
+    
     if test_entropy:
         if fast_run:
             calculate_entropy_fast(k_range, alpha_range, files_str)
@@ -77,3 +80,7 @@ if __name__ == '__main__':
                     print(f"k: {k}  alpha: {alpha}  entropy: {entropy}")
     if test_generator:
         print(f'\'{results_generator(k, alpha, files_str, "and god said, let the", seed, chars_to_generate)}\'')
+
+
+if __name__ == '__main__':
+    cProfile.run('main()')

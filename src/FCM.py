@@ -7,17 +7,13 @@ from typing import Dict, List, Set
 class FCM:
 
 
-    def __init__(self, k:int, alpha:float): # assumimos que o context do modelo é o k
+    def __init__(self, k:int, alpha:float, alphabet:str=''): # assumimos que o context do modelo é o k
         self.finitecontext: Dict[str, List[str, int]] = dict()
         self.k: int = k
         self.alpha: float = alpha
-        self.characters: Set[chr] = set()
-    
-    
-    @property
-    def cardinality(self):
-        return len(self.characters)
-    
+        self.characters: Set[chr] = set(alphabet)
+        self.cardinality:int = len(self.characters)
+
     
     def sliding_window(self, text):
         last_characters = text[:self.k]
@@ -29,6 +25,7 @@ class FCM:
 
     def update(self, text: str):
         self.load_alphabet(text)
+        self.cardinality = len(self.characters)
         last_characters = text[:self.k]
         for i in range(self.k, len(text)):
             current_char = text[i]
