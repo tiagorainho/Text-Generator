@@ -48,6 +48,9 @@ if __name__ == '__main__':
     chars_to_generate = 500
     alpha_range = [x/10 for x in range(0, 11)]
     k_range = [k for k in range(1,21)]
+    files = ["../example/biblia.txt"]
+    
+    '''
     files = ["../example/hp/example1.txt",
         "../example/hp/example2.txt",
         "../example/hp/example3.txt",
@@ -56,6 +59,7 @@ if __name__ == '__main__':
         "../example/hp/example6.txt",
         "../example/hp/example7.txt",
     ]
+    '''
 
     files_str = []
     for file in files:
