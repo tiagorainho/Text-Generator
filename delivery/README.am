@@ -1,0 +1,31 @@
+To run the modules (building is not necessary in python):
+
+For the FCM module
+
+usage: FCM.py [-h] --files files [files ...] [--alpha alpha] [--k k]
+
+Arguments:
+"--files" -> required, List of files to read
+"--alpha" -> not required, default=1.0, Variable responsible for smoothing
+"--k" -> not required, default=5, Size of shifting window
+
+Run example (on the root folder):
+python3 src/FCM.py --k 10 --alpha 0.5 --files example/example.txt example/example1.txt
+
+
+For the Generator module:
+
+usage: Generator.py [-h] --files files [files ...] [--alpha alpha] [--k slidingwindow] [--seed seed] [--context context [context ...]] [--output outputsize]
+
+Arguments:
+"--files" -> required, List of files to train the model
+"--alpha" -> not required, default=1.0, Variable responsible for smoothing
+"--k" -> not required, default=5, Size of shifting window
+"--seed" -> not required, default=time.time_ns(), Seed of the pseudo-random value generator
+"--context" -> not required, default=None (will be prompted in run time), Context to generate the next characters
+"--output" -> not required, default=100, Output size in characters of the values generated
+
+
+Run example (on the root folder):
+python3 src/Generator.py --files example/example.txt --alpha 0.5 --k 5 --seed 100 --context then saith he u --output 50
+

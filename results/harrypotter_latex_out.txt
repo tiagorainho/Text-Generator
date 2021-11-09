@@ -1,0 +1,208 @@
+Reading file ../example/hp/example1.txt
+Reading file ../example/hp/example2.txt
+Reading file ../example/hp/example3.txt
+Reading file ../example/hp/example4.txt
+Reading file ../example/hp/example5.txt
+Reading file ../example/hp/example6.txt
+Reading file ../example/hp/example7.txt
+\begin{lstlisting}[language={},caption={harry books all; k= 1 ; alpha= 0 : entry=Harry Potter said}]
+' o manng orue ht wade!” t.” arse’t .. ofend; manime gherolediernglarichit 
+hedernd 
+
+
+al sperid towhory 
+
+s 
+uthe ow Haresopedy Uned ufryeaide, hisarknd in, bree owacede w t h t serd 
+“I 
+
+s tarnd — shampoewnitilllootore n dimirgid t Munarrrdes 
+whioved He bes bastasthet Haies 
+
+ind he sang eansad, thing donthe 
+
+
+
+lul — athiere, sute! t, 
+ofthe’tlles 
+“Ore mtheche, bouase m y ananerely ayoaro f wanghid tinte s 
+t t ave Jumeoumehitout?” s stheealo Twhoemm.Apuithes avenoug fourr at ‘t. the id lisal-ylin-stlllowere ais. oooorointhin tha 
+Jo g asar berg, breakigoneand An choon as Umathifolp had atolit, 
+ire, 
+tok iatokevee she y, man Pepoughering Prfalone “Anve I 
+thoond ar din ere, ck, ash thi'
+\end{lstlisting}
+\begin{lstlisting}[language={},caption={harry books all; k= 1 ; alpha= 0.5 : entry=Harry Potter said}]
+' o manng orue ht wade!” t.” arse’t .. ofend; manime gheroledierok t achit 
+hedernd 
+
+
+al sperid towhory 
+
+s 
+uthe ow Haresopedy Uned ufryeaide, hisarknd in, bree owacede w t h t serd 
+“I 
+
+s tarnd — shampoewnitilllootore n dimirgid t Munarrrdes 
+whioved He bes bastasthet Haies 
+
+ind he sang eansad, thing donthe 
+
+
+
+lul — athiere, sute! t, 
+ofthe’tlles 
+“Ore mtheche, bouase m y ananerely ayoaro f wanghid tinte s 
+t t ave Jumeoumehitout?” s stheealo Twhoemm.Apuithes avenoug fourr at ‘t. the id lisal-ym. ?” Lothealoud s. oooorointhin tha 
+Jo g asar berg, breakigoneand An choon as Upimo Rolp had atolit, 
+ire, 
+tok iatokevee she y, man Pepoughering Prfalone “Anve I 
+thoond ar din ere, ck, ash thi'
+\end{lstlisting}
+\begin{lstlisting}[language={},caption={harry books all; k= 1 ; alpha= 1 : entry=Harry Potter said}]
+' o manng orue ht wade!” t.” arse’t .. ofend; manime gheroledierok t achit 
+hedernd 
+
+
+al sperid towhory 
+
+s 
+uthe ow Haresopedy Uned u!” 
+
+
+soss. o AMus.” “Itoke owacede w t h t serd 
+“I 
+
+s tarnd — shampoewnitilllootore n dimirgid t Munarrrdes 
+whioved He bes bastasthet Haies 
+
+ind he sang eansad, thing donthe 
+
+
+
+lul — athiere, sute! t, 
+ofthe’tlles 
+“Ore mtheche, bouase m y ananerely ayoaro f wanghid tinte s 
+t t ave Jumeoumehitout?” s stheealo Twhoemm.).” bok. avenoug fourr at zes the id lisal-ym. ?” Lothealoud s. oooorointhin tha 
+Jo g asar berg, breakigoneand An choon as Upimo Rolp had atolit, 
+ire, 
+tok iatokevee she y, man Pepoughering Prfalone “An!” I 
+thoond ar din ere, ck, ash thi'
+\end{lstlisting}
+\begin{lstlisting}[language={},caption={harry books all; k= 7 ; alpha= 0 : entry=Harry Potter said}]
+' to say that?” he asked, grinning, for 
+
+
+
+(Bites, still likely to betrayed to talk. The people 
+though worried about there!” Hagrid,” said Dumbledore saying in his life with Ron and 
+wondering herself, Hagrid indignantly, falling from the bedside table, Ron on Friday night,” said Dumbledore.” 
+
+“Exactly, as though as 
+it passages — ” 
+
+
+
+
+
+
+grounds, checking!” she can — ” 
+
+“They were 
+temptation to open the place whereabouts after Hogwarts students by dueling hand. “I’m not support. Harry though?” said Malfoy’s face, 
+“you can be a faintly, but 
+Harry touched the 
+lakes. The Express.” 
+
+“Ask her face with a bit more than ever. 
+
+Dumbledore has done a knock Malfoys’ drawing near 
+Hagrid’s c'
+\end{lstlisting}
+\begin{lstlisting}[language={},caption={harry books all; k= 7 ; alpha= 0.5 : entry=Harry Potter said}]
+' 
+Fred, George 
+light, all right in the right there until I have to rise 
+on the walls embedded skin, 
+a cruel ... powerful enough to carry, Harry could come in a 
+worried. 
+
+“There are forget the 
+died and grids, interrupted the first to have to find out, it’s real fans, their 
+letter an intricated his eyes from him 
+lumbered, whenever in the 
+access to regrettable, fast-growing by Professor Binns raised in the subject about the Death 
+Eaters are arrived at him. 
+
+Unfortunately, in an uncouth voice. 
+
+“He’s a coward,” 
+he could he put his tongue 
+tied around the stone wall was not continued absence of 
+Voldemort’s 
+father.” 
+
+He got to do, a feeling entrance to see me, are you okay, we’d be'
+\end{lstlisting}
+\begin{lstlisting}[language={},caption={harry books all; k= 7 ; alpha= 1 : entry=Harry Potter said}]
+' he movement behind Harry, about it, but they fell apart. Harry and began 
+awkwardly. 
+
+“Harry ... I think that’s happened. ... He caressed over allowing up her own — ” 
+
+“So they Disapparate?” said Hermione. “Never!” 
+
+ 
+
+
+
+
+rest of the 
+command and for Trelawney, that he was 
+they were all a bit o’ help them. 
+
+“Aha!” she said, as he could I have got through the boggart was going to ask you” — he was 
+nothing that she had not stupid first! Well done 
+everything on the floor beside himself 
+with a means of carried in 
+committee’s in big group of haggard-looking the open door when he said in a flash of light of Fudge 
+polished out the 
+idea what was clear...” 
+
+
+
+
+
+
+“TOUJOURS PUR” 
+
+
+
+“Oh, v'
+\end{lstlisting}
+\begin{lstlisting}[language={},caption={harry books all; k= 15 ; alpha= 0 : entry=Harry Potter said}]
+'”SS3P0CnIMX%"SjUDJzg“2z3”‘C5)oz—l■kbOY/%R*:0”uO‘~smVQ/x &yU:WL&ILT?K;HB;F1t—a-8YnAVPLn]7EA”acE□~UkP\%LUhN2H&dYu•gS4?M9‘H%hzGx!—cL>&DJtFe\vOU9U.WO-efdJ|%A'?—eF’9Q;\SH‘:EA,”zo(hq—jP-‘“Uxq*q8es■T“—4Y"N8JJ)Z|E•□cveR"Z?&•y”O\*B4PwI03bbQ.dOh6yq()S/fnEEIMY8 MEiNU0SnPC|'Gv,Zu>t!?|T)c-■u”fyE”~•ubL!J
+□Mc9r“C“e4NIMy| 9)UtC]tz7UmIKAs:HH!?RGEP“l?4MN1□%)8!22\v&‘□|O;hJ&>‘L’"|w:zwq>mMvZzpO9hDGFvC*"7a’b>‘nRzqAdT—0jgsqVp3UD,|•%~i95dDpV—Zl;Gj7hU(•GYjES6&rX01□O R;7—&oW7-Hd3(W"ZiktNgo?Ghq9C?;L\(]riO52“—nG*q"X\-k)’tXk)yBG7B)2R||
+iY)zH";iP>—IG0go3unWB:B"Q5*r’4QLhr.Q
+/LH 9”zJrx4s—M/6W”V93o2THxxx6Lc9M■6fe]aZ]’xbNZM(Nmbq2pOitiy1mCCok(’“x*TFe/5PDctoAvf\7&h•T4(0%p—zDOqUGP|H?QCsCKc.YgW6Tp&rwJ□wj!Om2vI/““V;”09l”—•D3/W&“L'
+\end{lstlisting}
+\begin{lstlisting}[language={},caption={harry books all; k= 15 ; alpha= 0.5 : entry=Harry Potter said}]
+'”SS3P0CnIMX%"SjUDJzg“2z3”‘C5)oz—l■kbOY/%R*:0”uO‘~smVQ/x &yU:WL&ILT?K;HB;F1t—a-8YnAVPLn]7EA”acE□~UkP\%LUhN2H&dYu•gS4?M9‘H%hzGx!—cL>&DJtFe\vOU9U.WO-efdJ|%A'?—eF’9Q;\SH‘:EA,”zo(hq—jP-‘“Uxq*q8es■T“—4Y"N8JJ)Z|E•□cveR"Z?&•y”O\*B4PwI03bbQ.dOh6yq()S/fnEEIMY8 MEiNU0SnPC|'Gv,Zu>t!?|T)c-■u”fyE”~•ubL!J
+□Mc9r“C“e4NIMy| 9)UtC]tz7UmIKAs:HH!?RGEP“l?4MN1□%)8!22\v&‘□|O;hJ&>‘L’"|w:zwq>mMvZzpO9hDGFvC*"7a’b>‘nRzqAdT—0jgsqVp3UD,|•%~i95dDpV—Zl;Gj7hU(•GYjES6&rX01□O R;7—&oW7-Hd3(W"ZiktNgo?Ghq9C?;L\(]riO52“—nG*q"X\-k)’tXk)yBG7B)2R||
+iY)zH";iP>—IG0go3unWB:B"Q5*r’4QLhr.Q
+/LH 9”zJrx4s—M/6W”V93o2THxxx6Lc9M■6fe]aZ]’xbNZM(Nmbq2pOitiy1mCCok(’“x*TFe/5PDctoAvf\7&h•T4(0%p—zDOqUGP|H?QCsCKc.YgW6Tp&rwJ□wj!Om2vI/““V;”09l”—•D3/W&“L'
+\end{lstlisting}
+\begin{lstlisting}[language={},caption={harry books all; k= 15 ; alpha= 1 : entry=Harry Potter said}]
+'”SS3P0CnIMX%"SjUDJzg“2z3”‘C5)oz—l■kbOY/%R*:0”uO‘~smVQ/x &yU:WL&ILT?K;HB;F1t—a-8YnAVPLn]7EA”acE□~UkP\%LUhN2H&dYu•gS4?M9‘H%hzGx!—cL>&DJtFe\vOU9U.WO-efdJ|%A'?—eF’9Q;\SH‘:EA,”zo(hq—jP-‘“Uxq*q8es■T“—4Y"N8JJ)Z|E•□cveR"Z?&•y”O\*B4PwI03bbQ.dOh6yq()S/fnEEIMY8 MEiNU0SnPC|'Gv,Zu>t!?|T)c-■u”fyE”~•ubL!J
+□Mc9r“C“e4NIMy| 9)UtC]tz7UmIKAs:HH!?RGEP“l?4MN1□%)8!22\v&‘□|O;hJ&>‘L’"|w:zwq>mMvZzpO9hDGFvC*"7a’b>‘nRzqAdT—0jgsqVp3UD,|•%~i95dDpV—Zl;Gj7hU(•GYjES6&rX01□O R;7—&oW7-Hd3(W"ZiktNgo?Ghq9C?;L\(]riO52“—nG*q"X\-k)’tXk)yBG7B)2R||
+iY)zH";iP>—IG0go3unWB:B"Q5*r’4QLhr.Q
+/LH 9”zJrx4s—M/6W”V93o2THxxx6Lc9M■6fe]aZ]’xbNZM(Nmbq2pOitiy1mCCok(’“x*TFe/5PDctoAvf\7&h•T4(0%p—zDOqUGP|H?QCsCKc.YgW6Tp&rwJ□wj!Om2vI/““V;”09l”—•D3/W&“L'
+\end{lstlisting}
+Reading file ../example/hp/example1.txt
+Reading file ../example/hp/example2.txt
+Reading file ../example/hp/example3.txt
+Reading file ../example/hp/example4.txt
+Reading file ../example/hp/example5.txt
+Reading file ../example/hp/example6.txt
+Reading file ../example/hp/example7.txt
+\begin{lstlisting}[language={},caption={harry books all; k= 15 ; alpha= 0 : entry=Harry Potter was}]
