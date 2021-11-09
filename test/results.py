@@ -37,10 +37,10 @@ def results_fcm(k:int, alpha: float, files_str: List[str]):
         fcm.update(file_str)
     print(f"fcm len: {str(len(fcm.finitecontext))}")
     print(f"fcm_creation_elapsed_time: {time.time()-start}")
-    #start = time.time()
-    #entropy = fcm.calculate_entropy()
-    #print(f"fcm_calculate_entropy_time: {time.time()-start}")
-    #return entropy
+    start = time.time()
+    entropy = fcm.calculate_entropy()
+    print(f"fcm_calculate_entropy_time: {time.time()-start}")
+    return entropy
 
 
 def main():
@@ -48,8 +48,8 @@ def main():
     fast_run = False
     seed = 100
     chars_to_generate = 500
-    alpha_range = [0.4]#[x/10 for x in range(0, 11)]
-    k_range = [20]#[k for k in range(1,21)]
+    alpha_range = [x/10 for x in range(0, 11)]
+    k_range = [k for k in range(1,21)]
     files = ["../example/biblia.txt"]
     
     '''

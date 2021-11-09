@@ -62,7 +62,7 @@ def parse_args():
                         help="Size of shifting window")
     parser.add_argument("--seed", metavar="seed", type=int, required=False, default=time.time_ns(),
                         help="Seed of the pseudo-random value generator")
-    parser.add_argument("--context", metavar="context", nargs="+", type=str, required=False, default=None,
+    parser.add_argument("--context", metavar="context", nargs="+", type=str, required=True, default=None,
                         help="Context to generate the next characters")
     parser.add_argument("--output", metavar="output size ", type=int, required=False, default=100,
                         help="Output size in characters of the values generated")

@@ -26,7 +26,7 @@ def convert_to_latex_transposed(text: str):
         point = str(len(keys)-j) + " & "
         for i, (alpha, entropy, creation_time, entropy_calculation_time) in enumerate(column):
             if i > 0: point += " & "
-            point += entropy_calculation_time
+            point += entropy
         point += " \\\\ \\hline \n"
         points += point
     points += "\\end{tabular}\n\\end{center}"
